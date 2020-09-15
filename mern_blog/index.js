@@ -17,7 +17,7 @@ app.use('/articles', articlesRouter);
 app.use('/users', userRouter);
 
 mongoose.connect(
-  'mongodb+srv://sairamm:sairamm04@cluster1.phm2a.mongodb.net/mern_blog?retryWrites=true&w=majority',
+  'mongodb+srv://',
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
 );
 const db = mongoose.connection;
